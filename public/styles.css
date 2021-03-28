@@ -1,0 +1,52 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(wefont.ttf);
+}
+body{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-image: url("Wedback.png");
+}
+
+h1{
+  font-family: myFirstFont;
+  font-size: 60px;
+  background-color: white;
+}
+h3{
+  font-size: 36px;
+}
+
+h3{
+  margin-top: 40px;
+}
+
+.listed{
+  background-color: rgb(207, 233, 196, .50);
+}
+
+form{
+  padding-bottom: 3000px;
+  width: 25%;
+  margin: auto;
+}
+li{
+  width: 20%;
+  padding-top: 10px;
+  background-color: white;
+  margin: auto;
+  height: 70px;
+  border: 5px solid darkgreen;
+}
+li span{
+  padding: 66px;
+}
+input{
+  font-size: 20px;
+  margin: 10px;
+}
+button{
+  width: 130px;
+  height: 30px;
+}
